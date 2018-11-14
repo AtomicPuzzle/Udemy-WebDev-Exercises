@@ -1,0 +1,22 @@
+body {
+   padding-top: 70px;
+}
+
+.jumbotron {
+   color: #2c3e50;
+   background: #ecf0f1;
+}
+
+.navbar-inverse { /* or navbar or navbar-fixed-top */
+   background: #2c3e50;
+}
+
+/* more specific the designation, the higher the priority */
+
+.navbar-inverse .navbar-nav>li>a {
+   color: white;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}

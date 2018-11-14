@@ -1,0 +1,47 @@
+<!-- radio button -->
+<!-- select -->
+<!-- textarea tag -->
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Inputs Demo</title>
+   </head>
+   <body>
+      <!-- radio button -->
+      <p>Do you prefer cats or dogs?</p>
+
+      <form>
+         <label for="dogs">Dogs: </label>
+         <input name="petChoice" id="dogs" type="radio" value="DOGS">
+
+         <!-- if both have the same name, then only one radio button
+         can be selected at a time -->
+         <label for="cats">Cats: </label>
+         <input name="petChoice" id="cats" type="radio" value="CATS">
+
+         <button>Go!</button>
+
+
+         <!-- select -->
+         <p>What is your favorite colour?</p>
+         <select name="colour">
+            <option>Red</option>
+            <option>Orange</option>
+            <option>Yellow</option>
+         </select>
+
+         <p>What is your current mood?</p>
+         <select name="mood">
+            <option value="happy">:)</option>
+            <option value="neutral">:|</option>
+            <option value="sad">:(</option>
+         </select>
+
+
+         <!-- textarea -->
+         <textarea name="paragraph" rows="10" cols="50"></textarea>
+      </form>
+   </body>
+</html>
