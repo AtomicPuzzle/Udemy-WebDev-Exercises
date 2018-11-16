@@ -1,0 +1,16 @@
+<button>Turn Purple</button>
+
+<style>
+    .purple-class {
+        background-color: purple;
+    }
+</style>
+
+<script>
+    var bodySelect = document.querySelector("body");
+    var buttonSelect = document.querySelector("button");
+
+    buttonSelect.addEventListener("click", function() {
+        bodySelect.classList.toggle("purple-class");
+    });
+</script>

@@ -16,7 +16,7 @@ var isPurple = false;
 // })
 
 
-button.addEventListener(="click", function() {
+button.addEventListener("click", function() {
    document.body.classList.toggle("purple");
 
 })
